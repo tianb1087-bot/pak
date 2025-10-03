@@ -1,0 +1,10 @@
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/uninstall.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/h265_passthrough_pub_uninstall.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/h265_passthrough_pub.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/test.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/edit_cache.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/rebuild_cache.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/list_install_components.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/install.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/install/local.dir
+/home/auto/picture_p/build/h265_passthrough_pub/CMakeFiles/install/strip.dir

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>h265_passthrough_pub</name>
+  <version>0.0.1</version>
+  <description>Publish H.265 Annex-B as sensor_msgs/CompressedImage for ROS 2 recorders.</description>
+
+  <maintainer email="you@example.com">you</maintainer>
+  <license>MIT</license>
+
+  <!-- 关键：明确使用 ament_cmake 作为构建系统 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 运行/构建依赖（ROS 2） -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- 系统/第三方依赖 -->
+  <build_depend>pkg-config</build_depend>
+  <exec_depend>pkg-config</exec_depend>
+
+  <build_depend>libavcodec-dev</build_depend>
+  <build_depend>libavformat-dev</build_depend>
+  <build_depend>libavutil-dev</build_depend>
+  <exec_depend>libavcodec-dev</exec_depend>
+  <exec_depend>libavformat-dev</exec_depend>
+  <exec_depend>libavutil-dev</exec_depend>
+
+  <!-- 关键：导出构建类型为 ament_cmake，避免被识别为 catkin -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
